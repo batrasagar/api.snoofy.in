@@ -1,0 +1,25 @@
+{
+  "sqltools.connections": [
+    {
+      "askForPassword": true,
+      "database": "jet66erp",
+      "dialect": "PostgreSQL",
+      "name": "jet66erp",
+      "port": 5432,
+      "server": "localhost",
+      "username": "postgres",
+      "driver": "PostgreSQL"
+    },
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "ecomm",
+      "database": "ecomm",
+      "username": "batrasagar",
+      "password": "1707sp@@"
+    }
+  ],
+  "python.pythonPath": "/usr/local/bin/python3"
+}

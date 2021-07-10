@@ -1,0 +1,86 @@
+[
+  // Parent Category
+  {
+    "model": "superadmin.parentcategory",
+    "pk": 1,
+    "fields": {
+      "name": "Furniture",
+      "slug": "furniture"
+    }
+  },
+  {
+    "model": "superadmin.parentcategory",
+    "pk": 2,
+    "fields": {
+      "name": "Grocery",
+      "slug": "grocery"
+    }
+  },
+  // Order Status
+  {
+    "model": "superadmin.orderstatus",
+    "pk": 1,
+    "fields": {
+      "code": "C",
+      "status": "Cancelled"
+    }
+  },
+  {
+    "model": "superadmin.orderstatus",
+    "pk": 2,
+    "fields": {
+      "code": "D",
+      "status": "Delivered"
+    }
+  },
+  {
+    "model": "superadmin.orderstatus",
+    "pk": 3,
+    "fields": {
+      "code": "PE",
+      "status": "Pending"
+    }
+  },
+  {
+    "model": "superadmin.orderstatus",
+    "pk": 4,
+    "fields": {
+      "code": "PR",
+      "status": "Processing"
+    }
+  },
+  // Staff Role
+  {
+    "model": "superadmin.staffrole",
+    "pk": 1,
+    "fields": {
+      "code": "AD",
+      "role": "Admin"
+    }
+  },
+  {
+    "model": "superadmin.staffrole",
+    "pk": 2,
+    "fields": {
+      "code": "MA",
+      "role": "Manager"
+    }
+  },
+  {
+    "model": "superadmin.staffrole",
+    "pk": 3,
+    "fields": {
+      "code": "ME",
+      "role": "Member"
+    }
+  },
+  // Payment Methods
+  {
+    "model": "superadmin.paymentmethod",
+    "pk": 1,
+    "fields": {
+      "code": "COD",
+      "method": "Cash on Delivery"
+    }
+  }
+]
